@@ -666,27 +666,26 @@ static id<TWTRSessionStore_Private> TWTRSharedSessionStore = nil;
     return [[TWTRMultipartFormDocument alloc] initWithFormElements:@[mediaElement]];
 }
 
-- (nullable NSString *)mediaIDFromResponseData:(NSData *)data error:(NSError **)error
+- (nullable NSString *)mediaIDFromResponseData:(NSData *)data error:(NSError **)errorPtr
 {
     NSString *mediaID;
-    void (^setError)(NSError *) = ^(NSError *errorToSet) {
-        if (error) {
-            *error = errorToSet;
-        }
-    };
+    NSError *error = nil;
 
-    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:error];
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
     if (json) {
         if ([json isKindOfClass:[NSDictionary class]]) {
             mediaID = json[TWTRMediaIDStringKey];
             if (!mediaID) {
                 NSError *missingKeyError = [NSError errorWithDomain:TWTRErrorDomain code:TWTRErrorCodeMissingParameter userInfo:@{NSLocalizedDescriptionKey: @"API returned dictionary but did not have \"media_id_string\""}];
-                setError(missingKeyError);
+                error = missingKeyError;
             }
         } else {
             NSError *invalidTypeError = [NSError errorWithDomain:TWTRErrorDomain code:TWTRErrorCodeMismatchedJSONType userInfo:@{NSLocalizedDescriptionKey: @"API returned invalid JSON type"}];
-            setError(invalidTypeError);
+            error = invalidTypeError;
         }
+    }
+    if (errorPtr) {
+        *errorPtr = error;
     }
 
     return mediaID;
