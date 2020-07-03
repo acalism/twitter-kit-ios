@@ -383,6 +383,11 @@ static TWTRTwitter *sharedTwitter;
     BOOL isSSOBundle = [self.mobileSSO isSSOWithSourceApplication:sourceApplication];
     BOOL isWeb = [self.mobileSSO isWebWithSourceApplication:sourceApplication];
 
+    // Apple's privacy strategy changed
+    if (sourceApplication.length == 0) {
+        isSSOBundle = true;
+    }
+
     if (isSSOBundle) {
         [self.mobileSSO processRedirectURL:url];
     } else if (isWeb) {
