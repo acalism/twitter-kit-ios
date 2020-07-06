@@ -3,7 +3,7 @@
 //
 
 #import <TwitterCore/TwitterCore.h>
-#import <TwitterKit/TWTRKit.h>
+#import <TwitterKit/TwitterKit.h>
 
 @import DCIntrospect_ARC;
 @import DZNEmptyDataSet;

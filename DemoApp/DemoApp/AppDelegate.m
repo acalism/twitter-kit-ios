@@ -9,8 +9,11 @@
 #import "AppDelegate.h"
 #import <DCIntrospect_ARC/DCIntrospect.h>
 #import <FLEX/FLEX.h>
-#import <TwitterKit/TWTRKit.h>
+#import <TwitterKit/TwitterKit.h>
 #import "DemoApp-Swift.h"
+
+//@import Twitter;
+//#import <Twitter/Twitter.h>
 
 @interface AppDelegate ()
 
