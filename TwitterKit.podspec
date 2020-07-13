@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/TwitterDev"
   s.authors = "Twitter"
   s.platform = :ios, "9.0"
-  s.source = { :git => "git@gitlab.alibaba-inc.com:Youpik-iOS/twitter-sdk.git", :tag => "v#{s.version}" }
+  s.source = { :git => "git@gitlab.alibaba-inc.com:Youpik-iOS/twitter-sdk.git", :tag => s.version }
   s.vendored_frameworks = "iOS/TwitterKit.framework"
   s.license = { :type => "Commercial", :text => "Twitter Kit: Copyright Twitter, Inc. All Rights Reserved. Use of this software is subject to the terms and conditions of the Twitter Kit Agreement located at https://dev.twitter.com/overview/terms/twitterkit and the Developer Agreement located at https://dev.twitter.com/overview/terms/agreement. OSS: https://github.com/twitter/twitter-kit-ios/blob/master/OS_LICENSES.md"}
 
