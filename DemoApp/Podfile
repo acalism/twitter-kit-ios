@@ -1,20 +1,44 @@
-platform :ios, '9.0'
+# coding: utf-8
+platform :ios, '10.0'
 
 workspace 'DemoApp.xcworkspace'
 
 target 'DemoApp' do
-    use_frameworks!
+  use_frameworks!
 
-#     pod 'DCIntrospect-ARC', :inhibit_warnings => true
-#     pod 'DZNEmptyDataSet'
-#     pod 'SVProgressHUD'
-#     pod 'FLEX'
-#     pod 'mopub-ios-sdk'
+  pod 'TwitterCore', :path=>'../'
+  pod 'TwitterKit', :path=>'../'
+
+  # https://cocoapods.org/pods/DZNEmptyDataSet
+  # https://cocoapods.org/pods/DCIntrospect-ARC
+  pod 'SVProgressHUD'
+  #pod 'MoPub'
+  pod 'mopub-ios-sdk'
+  #pod 'FLEX'
+  pod 'DZNEmptyDataSet'
+  pod 'DCIntrospect-ARC', :inhibit_warnings => true
+  pod 'libextobjc'
+
+  target 'DemoAppTests' do
+      use_frameworks!
+
+      inherit! :search_paths # Required for not double-linking libraries in the app and test targets.
+      pod 'EarlGrey'
+  end
 end
 
-target 'DemoAppTests' do
-    use_frameworks!
 
-    inherit! :search_paths # Required for not double-linking libraries in the app and test targets.
-    pod 'EarlGrey'
+# 只为消除警告，无副作用，勿删
+post_install do |installer|
+  #project = installer.pods_project
+  installer.generated_projects.each do |project|
+    project.build_configurations.each do |config|
+      config.build_settings.delete 'CLANG_WARN_DOCUMENTATION_COMMENTS'
+    end
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+      end
+    end
+  end
 end

@@ -7,4 +7,4 @@ cd "$( dirname "${BASH_SOURCE[0]}" )" || exit
 export LC_ALL=en_US.UTF-8
 
 # Build sample app
-xcodebuild -workspace FabricSampleApp.xcworkspace -scheme FabricSampleApp -configuration Release build -sdk iphoneos | xcpretty
+#xcodebuild -workspace FabricSampleApp.xcworkspace -scheme FabricSampleApp -configuration Release build -sdk iphoneos | xcpretty
