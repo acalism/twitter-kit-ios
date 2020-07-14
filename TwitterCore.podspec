@@ -26,7 +26,12 @@ Pod::Spec.new do |s|
   s.framework = 'Social'
   s.framework = 'Accounts'
 
-  s.dependency 'libextobjc'
   s.dependency 'OCMock'
+
+  #s.dependency 'libextobjc'
+  s.dependency 'libextobjc/EXTKeyPathCoding'
+  s.dependency 'libextobjc/EXTScope'
+  s.dependency 'libextobjc/UmbrellaHeader'
+  s.dependency 'libextobjc/RuntimeExtensions'
 
 end

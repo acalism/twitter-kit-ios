@@ -37,22 +37,34 @@ PODS:
     - libextobjc/RuntimeExtensions
   - libextobjc/RuntimeExtensions (0.6)
   - libextobjc/UmbrellaHeader (0.6)
-  - mopub-ios-sdk (5.13.1):
-    - mopub-ios-sdk/MoPubSDK (= 5.13.1)
-  - mopub-ios-sdk/Core (5.13.1)
-  - mopub-ios-sdk/MoPubSDK (5.13.1):
+  - mopub-ios-sdk (5.12.1):
+    - mopub-ios-sdk/MoPubSDK (= 5.12.1)
+  - mopub-ios-sdk/Avid (5.12.1):
     - mopub-ios-sdk/Core
+  - mopub-ios-sdk/Core (5.12.1)
+  - mopub-ios-sdk/Moat (5.12.1):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/MoPubSDK (5.12.1):
+    - mopub-ios-sdk/Avid
+    - mopub-ios-sdk/Core
+    - mopub-ios-sdk/Moat
     - mopub-ios-sdk/NativeAds
-  - mopub-ios-sdk/NativeAds (5.13.1):
+  - mopub-ios-sdk/NativeAds (5.12.1):
     - mopub-ios-sdk/Core
   - OCMock (3.6)
   - Punycode-Cocoa (1.3.1)
   - SVProgressHUD (2.2.5)
   - TwitterCore (3.4.3):
-    - libextobjc
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
     - OCMock
   - TwitterKit (3.4.3):
-    - libextobjc
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
     - mopub-ios-sdk
     - OCMock
     - Punycode-Cocoa
@@ -90,13 +102,13 @@ SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   EarlGrey: 455e5597ae5ccaca92cd46b81d8b25cacec060a1
   libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
-  mopub-ios-sdk: 18af57aaf79d0ea3d0232b43b2d603ae8ea8e826
+  mopub-ios-sdk: d1640225b34ad74700e2acddb116cac634fc45d8
   OCMock: 5ea90566be239f179ba766fd9fbae5885040b992
   Punycode-Cocoa: d9a974cc7384bd6d31b8d9df867a9b7b213d8880
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  TwitterCore: 3cff1eb97312549bf35603f5bae1ef86ae024d88
-  TwitterKit: 01a6baa6e29665f961ead1889516ba09352c823c
+  TwitterCore: 611d43d81abf941c68c39903b74c039b4f179302
+  TwitterKit: 4f6ecf91ef5ff62f3b019df33048af140fbbaafe
 
-PODFILE CHECKSUM: 9d72a602af5f6fc606a2443e42783e396df546fd
+PODFILE CHECKSUM: 215ecc6924b53aff6ed23a8376fc3e0258fe9f5e
 
 COCOAPODS: 1.9.3

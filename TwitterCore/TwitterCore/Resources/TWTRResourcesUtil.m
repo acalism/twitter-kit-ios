@@ -35,8 +35,17 @@ static NSString *kitVersion;
 
     // Doing [self class] here so it works across targets. Otherwise kitBundle might not be what
     // you expect
-    NSBundle *bundle1 = [NSBundle bundleForClass:[self class]];
-    NSBundle *bundle = [NSBundle bundleWithPath:[bundle1 pathForResource:bundleName ofType:bundleType]];
+    NSArray<NSBundle *> *bundles = @[
+        [NSBundle bundleForClass:[self class]], // imported as binary framework
+        NSBundle.mainBundle,    // imported as local pod with source code
+    ];
+    NSBundle *bundle = nil;
+    for (NSBundle *container in bundles) {
+        bundle = [NSBundle bundleWithPath:[container pathForResource:bundleName ofType:bundleType]];
+        if (bundle != nil) {
+            return bundle;
+        }
+    }
     return bundle;
 }
 
