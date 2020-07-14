@@ -41,7 +41,7 @@ Using Twitter Kit from source in production applications is not officially suppo
 * Generate your Twitter API keys through the [Twitter developer apps dashboard](https://apps.twitter.com/).
 * Install Twitter Kit using instructions below.
 * For extensive documentation, please see the official [documentation](https://github.com/twitter/twitter-kit-ios/wiki).
-	
+
 ### Install using Cocoapods
 
 To add Twitter Kit to your app, simply add `TwitterKit` to your Podfile.
@@ -76,7 +76,8 @@ Make sure that the run script phase is after your Link Binaries with Libraries p
 
 Twitter Kit includes a demonstration app allowing you to preview features, and verify functionality. Create Twitter API keys as above, and then:
 
-* To check out a demo app with features already built in, rename `DemoApp/Config.xcconfig.sample` to `DemoApp/Config.xcconfig` and populate the consumer key and secret.
+* To check out a demo app with features already built in, rename `DemoApp/Config-example.xcconfig` to `DemoApp/Config.xcconfig` and populate the consumer key and secret.
+* pod install
 * Run `DemoApp.xcworkspace` on Xcode to verify build.
 
 ## Code of conduct

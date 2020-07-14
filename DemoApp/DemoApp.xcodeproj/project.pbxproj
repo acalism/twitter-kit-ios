@@ -27,7 +27,7 @@
 		379A6D1A1E95B71600625984 /* UserTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CFA1E95B71600625984 /* UserTimelineViewController.swift */; };
 		379A6D1B1E95B71600625984 /* VideoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CFB1E95B71600625984 /* VideoCollectionViewController.swift */; };
 		379A6D1C1E95B71600625984 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CFC1E95B71600625984 /* ViewExtensions.swift */; };
-		38332E74359FB37B95C5A102 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C999C0B9EB4E603B864B0A /* EarlGrey.framework */; };
+		38332E74359FB37B95C5A102 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		AA2B14C81F2BD49700880954 /* TweetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B14C71F2BD49700880954 /* TweetCollectionViewCell.swift */; };
 		AA34AC741FA2A426009EA9EB /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34AC731FA2A426009EA9EB /* DemoCollectionViewCell.swift */; };
 		AA34AC791FA38DCA009EA9EB /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34AC781FA38DCA009EA9EB /* Demo.swift */; };
@@ -52,7 +52,7 @@
 		AAE1B2211FA8E35700FA36F2 /* TweetComposerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1B2201FA8E35700FA36F2 /* TweetComposerViewController.swift */; };
 		AAE1B2231FA9077500FA36F2 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1B2221FA9077400FA36F2 /* UIAlertControllerExtensions.swift */; };
 		AAEE1AFF1FACCC8300F11160 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEE1AF81FACCC8300F11160 /* SafariServices.framework */; };
-		E614AD4CB5CD2B7BFC7A85D3 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = E7C999C0B9EB4E603B864B0A /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E614AD4CB5CD2B7BFC7A85D3 /* (null) in EarlGrey Copy Files */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 			dstPath = "$(TEST_HOST)/../";
 			dstSubfolderSpec = 0;
 			files = (
-				E614AD4CB5CD2B7BFC7A85D3 /* EarlGrey.framework in EarlGrey Copy Files */,
+				E614AD4CB5CD2B7BFC7A85D3 /* (null) in EarlGrey Copy Files */,
 			);
 			name = "EarlGrey Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,7 +118,7 @@
 		436E59A924BC4F6400D5691C /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; lineEnding = 0; path = build.sh; sourceTree = "<group>"; };
 		436E59AA24BC4F6400D5691C /* test.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; lineEnding = 0; path = test.sh; sourceTree = "<group>"; };
 		436E59AC24BC4F6400D5691C /* Podfile.lock */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = Podfile.lock; sourceTree = "<group>"; tabWidth = 2; };
-		4398658D24BDEFD40063877D /* DemoApp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DemoApp.xcconfig; sourceTree = SOURCE_ROOT; };
+		4398658D24BDEFD40063877D /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = SOURCE_ROOT; };
 		AA2B14C71F2BD49700880954 /* TweetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCollectionViewCell.swift; sourceTree = "<group>"; };
 		AA34AC731FA2A426009EA9EB /* DemoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewCell.swift; sourceTree = "<group>"; };
 		AA34AC781FA38DCA009EA9EB /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38332E74359FB37B95C5A102 /* EarlGrey.framework in Frameworks */,
+				38332E74359FB37B95C5A102 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +187,6 @@
 			children = (
 				379A6CA71E95B47300625984 /* DemoApp.app */,
 				379A6CC31E95B47300625984 /* DemoAppTests.xctest */,
-				E7C999C0B9EB4E603B864B0A /* EarlGrey.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,7 +217,7 @@
 				3777838A1E96AFD500BC4830 /* Images.xcassets */,
 				379A6CBE1E95B47300625984 /* Info.plist */,
 				379A6CAB1E95B47300625984 /* main.m */,
-				4398658D24BDEFD40063877D /* DemoApp.xcconfig */,
+				4398658D24BDEFD40063877D /* Config.xcconfig */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -526,7 +525,7 @@
 /* Begin XCBuildConfiguration section */
 		379A6CCA1E95B47300625984 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4398658D24BDEFD40063877D /* DemoApp.xcconfig */;
+			baseConfigurationReference = 4398658D24BDEFD40063877D /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -586,7 +585,7 @@
 		};
 		379A6CCB1E95B47300625984 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4398658D24BDEFD40063877D /* DemoApp.xcconfig */;
+			baseConfigurationReference = 4398658D24BDEFD40063877D /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
