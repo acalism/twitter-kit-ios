@@ -323,6 +323,7 @@
 		3DFAD0301B33991E0076E10A /* TWTRListTimelineDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFAD0031B333D980076E10A /* TWTRListTimelineDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DFAD0391B339EAB0076E10A /* TWTRListTimelineDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAD0381B339EAB0076E10A /* TWTRListTimelineDataSourceTests.m */; };
 		3DFAD03E1B33AB6E0076E10A /* TwitterSyndicationTeamListTweets.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DFAD03D1B33AB6E0076E10A /* TwitterSyndicationTeamListTweets.json */; };
+		4398658624BDC7190063877D /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4398658324BDC7190063877D /* CoreServices.framework */; };
 		6C45B2DA1B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C45B2D81B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.h */; };
 		6C45B2DB1B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C45B2D81B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.h */; };
 		6C45B2DC1B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C45B2D91B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.m */; };
@@ -952,6 +953,7 @@
 		3DFAD03D1B33AB6E0076E10A /* TwitterSyndicationTeamListTweets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterSyndicationTeamListTweets.json; sourceTree = "<group>"; };
 		436E59A324BC464C00D5691C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		436E59A424BC464D00D5691C /* TwitterKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = TwitterKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		4398658324BDC7190063877D /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		6C45B2D81B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRTwitterAPIServiceConfig.h; sourceTree = "<group>"; };
 		6C45B2D91B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRTwitterAPIServiceConfig.m; sourceTree = "<group>"; };
 		6C58C4D21AE7102900D042C7 /* TWTROAuthSigning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTROAuthSigning.h; sourceTree = "<group>"; };
@@ -1215,12 +1217,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF0C9F220119C2C0057F438 /* MapKit.framework in Frameworks */,
+				AAF0C9F120119C0A0057F438 /* CoreLocation.framework in Frameworks */,
+				37ED04661CE3E81C003DC129 /* SafariServices.framework in Frameworks */,
+				DB2242801C3F24AF008A6DC7 /* Security.framework in Frameworks */,
+				DB22426E1C3F22BC008A6DC7 /* QuartzCore.framework in Frameworks */,
+				DB22426D1C3F22B3008A6DC7 /* CoreText.framework in Frameworks */,
+				DB22426C1C3F22AB008A6DC7 /* Social.framework in Frameworks */,
+				DB22426B1C3F22A7008A6DC7 /* Accounts.framework in Frameworks */,
+				DB22426A1C3F2292008A6DC7 /* AVFoundation.framework in Frameworks */,
+				4398658624BDC7190063877D /* CoreServices.framework in Frameworks */,
+				DB2242691C3F228B008A6DC7 /* CoreMedia.framework in Frameworks */,
+				DB2242681C3F2194008A6DC7 /* Foundation.framework in Frameworks */,
+				DB2242671C3F218F008A6DC7 /* UIKit.framework in Frameworks */,
+				DB2242661C3F2188008A6DC7 /* CoreGraphics.framework in Frameworks */,
+				DB2242611C3F2181008A6DC7 /* CoreData.framework in Frameworks */,
+				DB22427F1C3F24A2008A6DC7 /* libTwitterCore.a in Frameworks */,
+				BFE839801ADF237A0035CBA1 /* libTwitterKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		208ACAB41FB2800900008F42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4398658324BDC7190063877D /* CoreServices.framework */,
+				AA3E099B20125EC600792255 /* MapKit.framework */,
+				AAF0C9F020119BED0057F438 /* MapKit.framework */,
+				AAF0C9EE20119BB40057F438 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2267CE1D1DEF4E03005353C6 /* External */ = {
 			isa = PBXGroup;
 			children = (

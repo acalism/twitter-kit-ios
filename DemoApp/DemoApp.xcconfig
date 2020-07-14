@@ -1,0 +1,19 @@
+//
+//  DemoApp.xcconfig
+//  DemoApp
+//
+//  Created by Liming Song on 2020/7/14.
+//  Copyright © 2020 Twitter. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_BUNDLE_IDENTIFIER = com.twitter.twitterkit.demo
+
+// fill your own twitter key and secret
+TWITTER_CONSUMER_KEY    = YOUR_OWN_KEY
+TWITTER_CONSUMER_SECRET = YOUR_OWN_SECRET
+
+// fill with your own
+MOPUB_AD_UNIT_ID = YOUR_OWN
