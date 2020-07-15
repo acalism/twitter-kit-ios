@@ -1,14 +1,15 @@
+# macOS
 .DS_Store
 __RELEASES__
 bin/
 
+# vim/emacs
+*~
+
 # Xcode
 build/
-DerivedData
-dist
-*.xccheckout
-*.xcuserdatad
-*.xcuserstate
+DerivedData/
+dist/
 project.xcworkspace/
 xcuserdata/
 *.o
@@ -16,12 +17,12 @@ xcuserdata/
 *.lo
 config.log
 config.status
-*.xcscmblueprint
+
 
 *.gcda
 *.gcno
 
 !**/Carthage/Build
 Artifacts
-DemoApp/Config.xcconfig
+DemoApp/Config-private.xcconfig
 

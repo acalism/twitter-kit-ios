@@ -10,10 +10,13 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 PRODUCT_BUNDLE_IDENTIFIER = com.twitter.twitterkit.demo
+DEVELOPMENT_TEAM = 
 
 // fill your own twitter key and secret
-TWITTER_CONSUMER_KEY    = YOUR_OWN_KEY
-TWITTER_CONSUMER_SECRET = YOUR_OWN_SECRET
+// TWITTER_CONSUMER_KEY    = YOUR_OWN
+// TWITTER_CONSUMER_SECRET = YOUR_OWN
 
 // fill with your own
-MOPUB_AD_UNIT_ID = YOUR_OWN
+// MOPUB_AD_UNIT_ID = YOUR_OWN
+
+#include "Config-private.xcconfig"

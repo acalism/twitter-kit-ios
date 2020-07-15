@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		20ABD1D71F0188DD00DCA2E0 /* TweetCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABD1D61F0188DC00DCA2E0 /* TweetCollectionViewController.swift */; };
 		377340651ECA3D080065FFE0 /* DeletedTweet.json in Resources */ = {isa = PBXBuildFile; fileRef = 377340641ECA3D080065FFE0 /* DeletedTweet.json */; };
-		377783891E96AF1700BC4830 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 377783881E96AF1700BC4830 /* TwitterKitResources.bundle */; };
 		3777838B1E96AFD500BC4830 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3777838A1E96AFD500BC4830 /* Images.xcassets */; };
 		379A6CAC1E95B47300625984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CAB1E95B47300625984 /* main.m */; };
 		379A6CAF1E95B47300625984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CAE1E95B47300625984 /* AppDelegate.m */; };
@@ -27,7 +26,6 @@
 		379A6D1A1E95B71600625984 /* UserTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CFA1E95B71600625984 /* UserTimelineViewController.swift */; };
 		379A6D1B1E95B71600625984 /* VideoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CFB1E95B71600625984 /* VideoCollectionViewController.swift */; };
 		379A6D1C1E95B71600625984 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CFC1E95B71600625984 /* ViewExtensions.swift */; };
-		38332E74359FB37B95C5A102 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		AA2B14C81F2BD49700880954 /* TweetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B14C71F2BD49700880954 /* TweetCollectionViewCell.swift */; };
 		AA34AC741FA2A426009EA9EB /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34AC731FA2A426009EA9EB /* DemoCollectionViewCell.swift */; };
 		AA34AC791FA38DCA009EA9EB /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34AC781FA38DCA009EA9EB /* Demo.swift */; };
@@ -81,7 +79,6 @@
 
 /* Begin PBXFileReference section */
 		20ABD1D61F0188DC00DCA2E0 /* TweetCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCollectionViewController.swift; sourceTree = "<group>"; };
-		3733E29D1EA8276800E95681 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterShareExtensionUIResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		377340641ECA3D080065FFE0 /* DeletedTweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DeletedTweet.json; sourceTree = "<group>"; };
 		377783881E96AF1700BC4830 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = ../TwitterKit/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		3777838A1E96AFD500BC4830 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -118,6 +115,7 @@
 		436E59A924BC4F6400D5691C /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; lineEnding = 0; path = build.sh; sourceTree = "<group>"; };
 		436E59AA24BC4F6400D5691C /* test.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; lineEnding = 0; path = test.sh; sourceTree = "<group>"; };
 		436E59AC24BC4F6400D5691C /* Podfile.lock */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = Podfile.lock; sourceTree = "<group>"; tabWidth = 2; };
+		438DBD2124BEA4E8007E7F20 /* Config-private.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Config-private.xcconfig"; sourceTree = SOURCE_ROOT; };
 		4398658D24BDEFD40063877D /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = SOURCE_ROOT; };
 		AA2B14C71F2BD49700880954 /* TweetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCollectionViewCell.swift; sourceTree = "<group>"; };
 		AA34AC731FA2A426009EA9EB /* DemoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38332E74359FB37B95C5A102 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,10 +210,10 @@
 		379A6CAA1E95B47300625984 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3733E29D1EA8276800E95681 /* TwitterShareExtensionUIResources.bundle */,
 				3777838A1E96AFD500BC4830 /* Images.xcassets */,
 				379A6CBE1E95B47300625984 /* Info.plist */,
 				379A6CAB1E95B47300625984 /* main.m */,
+				438DBD2124BEA4E8007E7F20 /* Config-private.xcconfig */,
 				4398658D24BDEFD40063877D /* Config.xcconfig */,
 			);
 			name = "Supporting Files";
@@ -402,14 +399,13 @@
 					};
 					379A6CC21E95B47300625984 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 9YG77X724H;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 379A6CA61E95B47300625984;
 					};
 				};
 			};
 			buildConfigurationList = 379A6CA21E95B47300625984 /* Build configuration list for PBXProject "DemoApp" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -432,7 +428,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377783891E96AF1700BC4830 /* TwitterKitResources.bundle in Resources */,
 				379A6CBD1E95B47300625984 /* LaunchScreen.storyboard in Resources */,
 				377340651ECA3D080065FFE0 /* DeletedTweet.json in Resources */,
 				3777838B1E96AFD500BC4830 /* Images.xcassets in Resources */,
@@ -631,7 +626,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -644,11 +640,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DemoApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoApp/DemoApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -660,11 +657,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DemoApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoApp/DemoApp-Bridging-Header.h";
 			};
 			name = Release;
@@ -675,7 +673,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DemoAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = twitter.DemoAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoApp.app/DemoApp";
@@ -688,7 +690,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DemoAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = twitter.DemoAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoApp.app/DemoApp";
