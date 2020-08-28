@@ -60,7 +60,344 @@ PODS:
     - libextobjc/RuntimeExtensions
     - libextobjc/UmbrellaHeader
     - OCMock
+    - TwitterCore/Analytics (= 3.4.3)
+    - TwitterCore/Identity (= 3.4.3)
+    - TwitterCore/Networking (= 3.4.3)
+    - TwitterCore/Resources (= 3.4.3)
+    - TwitterCore/SupportingFiles (= 3.4.3)
+    - TwitterCore/Utilities (= 3.4.3)
+  - TwitterCore/Analytics (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+  - TwitterCore/Identity (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+    - TwitterCore/Identity/V2 (= 3.4.3)
+  - TwitterCore/Identity/V2 (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+  - TwitterCore/Networking (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+    - TwitterCore/Networking/API (= 3.4.3)
+    - TwitterCore/Networking/Pipeline (= 3.4.3)
+    - TwitterCore/Networking/Security (= 3.4.3)
+    - TwitterCore/Networking/ThirdParty (= 3.4.3)
+  - TwitterCore/Networking/API (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+  - TwitterCore/Networking/Pipeline (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+  - TwitterCore/Networking/Security (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+  - TwitterCore/Networking/ThirdParty (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+  - TwitterCore/Resources (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+  - TwitterCore/SupportingFiles (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
+  - TwitterCore/Utilities (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - OCMock
   - TwitterKit (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+    - TwitterKit/API (= 3.4.3)
+    - TwitterKit/Composer (= 3.4.3)
+    - TwitterKit/Controllers (= 3.4.3)
+    - TwitterKit/Debugging (= 3.4.3)
+    - TwitterKit/External (= 3.4.3)
+    - TwitterKit/Identity (= 3.4.3)
+    - TwitterKit/Libraries (= 3.4.3)
+    - TwitterKit/Models (= 3.4.3)
+    - TwitterKit/MoPub (= 3.4.3)
+    - TwitterKit/Networking (= 3.4.3)
+    - TwitterKit/Notifications (= 3.4.3)
+    - TwitterKit/Persistence (= 3.4.3)
+    - TwitterKit/Resources (= 3.4.3)
+    - TwitterKit/ThirdParty (= 3.4.3)
+    - TwitterKit/Utilities (= 3.4.3)
+    - TwitterKit/Views (= 3.4.3)
+  - TwitterKit/API (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Composer (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+    - TwitterKit/Composer/TwitterShareExtensionUI (= 3.4.3)
+  - TwitterKit/Composer/TwitterShareExtensionUI (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Controllers (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+    - TwitterKit/Controllers/Video (= 3.4.3)
+  - TwitterKit/Controllers/Video (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Debugging (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/External (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+    - TwitterKit/External/PunycodeCocoa (= 3.4.3)
+  - TwitterKit/External/PunycodeCocoa (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Identity (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+    - TwitterKit/Identity/APIClient (= 3.4.3)
+  - TwitterKit/Identity/APIClient (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Libraries (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+    - TwitterKit/Libraries/TwitterUI (= 3.4.3)
+    - TwitterKit/Libraries/TWTRImageLoader (= 3.4.3)
+  - TwitterKit/Libraries/TwitterUI (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Libraries/TWTRImageLoader (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Models (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+    - TwitterKit/Models/CardEntities (= 3.4.3)
+    - TwitterKit/Models/Cards (= 3.4.3)
+    - TwitterKit/Models/JSONValidating (= 3.4.3)
+  - TwitterKit/Models/CardEntities (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Models/Cards (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Models/JSONValidating (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/MoPub (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Networking (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Notifications (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Persistence (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Resources (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/ThirdParty (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Utilities (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+  - TwitterKit/Views (3.4.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - mopub-ios-sdk
+    - OCMock
+    - Punycode-Cocoa
+    - TwitterCore
+    - TwitterKit/Views/TweetViewLayouts (= 3.4.3)
+  - TwitterKit/Views/TweetViewLayouts (3.4.3):
     - libextobjc/EXTKeyPathCoding
     - libextobjc/EXTScope
     - libextobjc/RuntimeExtensions
@@ -106,8 +443,8 @@ SPEC CHECKSUMS:
   OCMock: 5ea90566be239f179ba766fd9fbae5885040b992
   Punycode-Cocoa: d9a974cc7384bd6d31b8d9df867a9b7b213d8880
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  TwitterCore: 611d43d81abf941c68c39903b74c039b4f179302
-  TwitterKit: 4f6ecf91ef5ff62f3b019df33048af140fbbaafe
+  TwitterCore: d1821f9de307c02645c25d88e2335b09af667a88
+  TwitterKit: 4d295b0d6b4c100f3aff1dc11dac212358a63eda
 
 PODFILE CHECKSUM: 215ecc6924b53aff6ed23a8376fc3e0258fe9f5e
 

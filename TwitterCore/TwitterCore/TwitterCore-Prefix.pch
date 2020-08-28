@@ -6,6 +6,18 @@
 
 #ifdef __OBJC__
 #import <Foundation/Foundation.h>
-#import <libextobjc/extobjc.h>
+
 #import "TWTRDefines.h"
+
+#if 1
+//#import <libextobjc/extobjc.h>
+//#import <libextobjc/EXTKeyPathCoding.h>
+//#import <libextobjc/EXTScope.h>
+//#import <libextobjc/metamacros.h>
+#else
+#import "EXTKeyPathCoding.h"
+#import "EXTScope.h"
+#import "metamacros.h"
+#endif
+
 #endif

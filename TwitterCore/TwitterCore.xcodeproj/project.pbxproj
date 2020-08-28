@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360D645A0A3621FB42E0182E /* libPods-TwitterCore-TwitterCoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 374F49056306E08BDBF87ACB /* libPods-TwitterCore-TwitterCoreTests.a */; };
 		3705A3251AFA8B610005557F /* TWTRAssertionMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3713A5541AE9C6B70058AB33 /* TWTRAssertionMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3713A5551AE9C6B70058AB33 /* TWTRAssertionMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3713A5541AE9C6B70058AB33 /* TWTRAssertionMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		373F51531E9FE97400B37C86 /* TWTRNetworkingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5645611ACE2E1D00633C16 /* TWTRNetworkingUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -74,7 +75,7 @@
 		6C3998E21AE863EC00870DB5 /* TWTRAPIServiceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3998E11AE8636400870DB5 /* TWTRAPIServiceConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6C3998E31AE863EC00870DB5 /* TWTRAPIServiceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3998E11AE8636400870DB5 /* TWTRAPIServiceConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6C3998E51AE8640C00870DB5 /* TWTRAPIServiceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3998E41AE8640C00870DB5 /* TWTRAPIServiceConfig.m */; };
-		6C7FCB611AE59F5C008F41C9 /* (null) in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Private, ); }; };
+		6C7FCB611AE59F5C008F41C9 /* BuildFile in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Private, ); }; };
 		6C80752F1AEAB5EF004164E0 /* TWTRFakeAPIServiceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8075291AEAB52B004164E0 /* TWTRFakeAPIServiceConfig.m */; };
 		6C9581B21AE1EC4B002981F8 /* TWTRUserAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9581A31AE1EC4B002981F8 /* TWTRUserAPIClientTests.m */; };
 		6C9581B31AE1EC4B002981F8 /* TwitterAppAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9581A41AE1EC4B002981F8 /* TwitterAppAPIClientTests.m */; };
@@ -234,6 +235,7 @@
 		BF8EF2C91AFD3E9F008B4829 /* TWTRCoreOAuthSigning+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8EF2C71AFD3E98008B4829 /* TWTRCoreOAuthSigning+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BFA0EAF11B01277A000D712D /* TWTRCoreOAuthSigningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA0EAF01B01277A000D712D /* TWTRCoreOAuthSigningTests.m */; };
 		BFE838C01ADDE1B80035CBA1 /* TwitterCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5A924A1AAA8D600039EFCC /* TwitterCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA313CD84A5815B789821E6C /* libPods-TwitterCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5909A393C00A819D51BE2611 /* libPods-TwitterCore.a */; };
 		DB0908981B6057B000FE4CD3 /* TWTRSessionMigrating.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0908971B6057B000FE4CD3 /* TWTRSessionMigrating.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DB19EEE41BC6E51F00C7D031 /* TWTRAuthConfigStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19EEE31BC6E51F00C7D031 /* TWTRAuthConfigStoreTests.m */; };
 		DB19EEE71BC705C100C7D031 /* TWTRAuthConfigSessionsValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = DB19EEE51BC705C100C7D031 /* TWTRAuthConfigSessionsValidator.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -317,6 +319,7 @@
 		24AC144B1BE7B62C000029B5 /* TwitterCoreTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = TwitterCoreTests.xcconfig; path = Config/TwitterCoreTests.xcconfig; sourceTree = "<group>"; };
 		24AC14551BE7C782000029B5 /* TWTRResourcesUtil_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTRResourcesUtil_Private.h; sourceTree = "<group>"; };
 		3713A5541AE9C6B70058AB33 /* TWTRAssertionMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRAssertionMacros.h; sourceTree = "<group>"; };
+		374F49056306E08BDBF87ACB /* libPods-TwitterCore-TwitterCoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwitterCore-TwitterCoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5B0C7A1B9D3B670079A6F6 /* TWTRSession_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRSession_Private.h; sourceTree = "<group>"; };
 		3D761C8F1B605A5D00CCB795 /* TWTRSessionStore_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRSessionStore_Private.h; path = V2/TWTRSessionStore_Private.h; sourceTree = "<group>"; };
 		3D761C921B6062B100CCB795 /* TWTRNetworkSessionProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRNetworkSessionProvider_Private.h; sourceTree = "<group>"; };
@@ -353,7 +356,8 @@
 		3DC7308C1B55BED300A0699A /* TWTRAppleSocialAuthProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRAppleSocialAuthProviderTests.m; sourceTree = "<group>"; };
 		3DC7308E1B55BFFE00A0699A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		3DC730951B55C02600A0699A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		436E59A224BC45EB00D5691C /* TwitterCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = TwitterCore.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		436E59A224BC45EB00D5691C /* TwitterCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; indentWidth = 2; lineEnding = 0; name = TwitterCore.podspec; path = ../TwitterCore.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		5909A393C00A819D51BE2611 /* libPods-TwitterCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwitterCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0DE2071C050D9500FC4CAC /* TWTRAPIDateSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTRAPIDateSync.h; sourceTree = "<group>"; };
 		6C0DE20A1C050FAF00FC4CAC /* TWTRAPIDateSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRAPIDateSync.m; sourceTree = "<group>"; };
 		6C0DE22F1C06380700FC4CAC /* TWTRAPIDateSyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRAPIDateSyncTests.m; sourceTree = "<group>"; };
@@ -390,6 +394,7 @@
 		6C9DF6C01BFE4CFE00C705B5 /* TWTRGCOAuthTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRGCOAuthTests.m; path = ThirdParty/TWTRGCOAuthTests.m; sourceTree = "<group>"; };
 		6CE57CC71AE068A300EA9C24 /* TWTRCoreOAuthSigning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRCoreOAuthSigning.h; sourceTree = "<group>"; };
 		6CE57CC81AE068A300EA9C24 /* TWTRCoreOAuthSigning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRCoreOAuthSigning.m; sourceTree = "<group>"; };
+		819AE66CF866A80CF1BDB7FA /* Pods-TwitterCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterCore.debug.xcconfig"; path = "Target Support Files/Pods-TwitterCore/Pods-TwitterCore.debug.xcconfig"; sourceTree = "<group>"; };
 		9D0AE5AE1AC73F3B00884B45 /* TWTRUserSessionVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRUserSessionVerifier.h; sourceTree = "<group>"; };
 		9D0AE5AF1AC73F3B00884B45 /* TWTRUserSessionVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRUserSessionVerifier.m; sourceTree = "<group>"; };
 		9D0AE5B41AC7400500884B45 /* TWTRDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRDateUtil.h; sourceTree = "<group>"; };
@@ -479,6 +484,7 @@
 		9DF52D9F1ABB6B1F004345D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AA0B5FD01F857E0900B7D1DA /* TWTRSecItemWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTRSecItemWrapper.h; sourceTree = "<group>"; };
 		AA0B5FD11F857E0900B7D1DA /* TWTRSecItemWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTRSecItemWrapper.m; sourceTree = "<group>"; };
+		AA0EA7974B751C0AA7350057 /* Pods-TwitterCore-TwitterCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterCore-TwitterCoreTests.debug.xcconfig"; path = "Target Support Files/Pods-TwitterCore-TwitterCoreTests/Pods-TwitterCore-TwitterCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA684F7D1F900BA600C66F98 /* TWTRAuthenticator_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTRAuthenticator_Private.h; sourceTree = "<group>"; };
 		AA684F801F900D1800C66F98 /* TWTRKeychainWrapper_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTRKeychainWrapper_Private.h; sourceTree = "<group>"; };
 		AAAAF73B1F9E510B002F1991 /* TWTRAuthConfigSessionsValidator_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTRAuthConfigSessionsValidator_Private.h; sourceTree = "<group>"; };
@@ -486,8 +492,10 @@
 		AAAE73BE1FB380BC005BEEAD /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
 		AAAE73BF1FB380BC005BEEAD /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
 		AAAE73C01FB380BC005BEEAD /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		BBEC22A73F607C7F5B4C0C0F /* Pods-TwitterCore-TwitterCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterCore-TwitterCoreTests.release.xcconfig"; path = "Target Support Files/Pods-TwitterCore-TwitterCoreTests/Pods-TwitterCore-TwitterCoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF8EF2C71AFD3E98008B4829 /* TWTRCoreOAuthSigning+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWTRCoreOAuthSigning+Private.h"; sourceTree = "<group>"; };
 		BFA0EAF01B01277A000D712D /* TWTRCoreOAuthSigningTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRCoreOAuthSigningTests.m; sourceTree = "<group>"; };
+		DA4A3D80CA49BC88C41A3686 /* Pods-TwitterCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterCore.release.xcconfig"; path = "Target Support Files/Pods-TwitterCore/Pods-TwitterCore.release.xcconfig"; sourceTree = "<group>"; };
 		DB0908971B6057B000FE4CD3 /* TWTRSessionMigrating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRSessionMigrating.h; sourceTree = "<group>"; };
 		DB19EEE31BC6E51F00C7D031 /* TWTRAuthConfigStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRAuthConfigStoreTests.m; sourceTree = "<group>"; };
 		DB19EEE51BC705C100C7D031 /* TWTRAuthConfigSessionsValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRAuthConfigSessionsValidator.h; sourceTree = "<group>"; };
@@ -522,10 +530,10 @@
 		DBC0F11C1B55CD7E006B6BB6 /* TWTRNetworkingPipelineQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRNetworkingPipelineQueueTests.m; path = PipelineTests/TWTRNetworkingPipelineQueueTests.m; sourceTree = "<group>"; };
 		DBC0F11D1B55CD7E006B6BB6 /* TWTRNetworkingPipelineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRNetworkingPipelineTests.m; path = PipelineTests/TWTRNetworkingPipelineTests.m; sourceTree = "<group>"; };
 		DBC0F11E1B55CD7E006B6BB6 /* TWTRRequestSigningOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRRequestSigningOperationTests.m; path = PipelineTests/TWTRRequestSigningOperationTests.m; sourceTree = "<group>"; };
-		DBC0F1241B55CE8D006B6BB6 /* TWTRPipelineSessionMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRPipelineSessionMock.h; path = TestHelpers/TWTRPipelineSessionMock.h; sourceTree = "<group>"; };
-		DBC0F1251B55CE8D006B6BB6 /* TWTRPipelineSessionMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRPipelineSessionMock.m; path = TestHelpers/TWTRPipelineSessionMock.m; sourceTree = "<group>"; };
-		DBC0F1271B55CECA006B6BB6 /* TWTRSessionFixtureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTRSessionFixtureLoader.h; path = TestHelpers/TWTRSessionFixtureLoader.h; sourceTree = "<group>"; };
-		DBC0F1281B55CECA006B6BB6 /* TWTRSessionFixtureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTRSessionFixtureLoader.m; path = TestHelpers/TWTRSessionFixtureLoader.m; sourceTree = "<group>"; };
+		DBC0F1241B55CE8D006B6BB6 /* TWTRPipelineSessionMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRPipelineSessionMock.h; sourceTree = "<group>"; };
+		DBC0F1251B55CE8D006B6BB6 /* TWTRPipelineSessionMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRPipelineSessionMock.m; sourceTree = "<group>"; };
+		DBC0F1271B55CECA006B6BB6 /* TWTRSessionFixtureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRSessionFixtureLoader.h; sourceTree = "<group>"; };
+		DBC0F1281B55CECA006B6BB6 /* TWTRSessionFixtureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRSessionFixtureLoader.m; sourceTree = "<group>"; };
 		E67CFD441C860B330045F8A2 /* TwitterCore.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = TwitterCore.xcconfig; path = Config/TwitterCore.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -551,6 +559,7 @@
 				9DF52D711ABA95CD004345D0 /* Security.framework in Frameworks */,
 				9D5A92701AAD14C90039EFCC /* Foundation.framework in Frameworks */,
 				9D5A922D1AAA89730039EFCC /* libTwitterCore.a in Frameworks */,
+				360D645A0A3621FB42E0182E /* libPods-TwitterCore-TwitterCoreTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,12 +573,25 @@
 				9D79FD231ABA71D2009E5D38 /* UIKit.framework in Frameworks */,
 				9D5A926B1AAD0DB50039EFCC /* Foundation.framework in Frameworks */,
 				9D5A92631AAA8E7B0039EFCC /* libTwitterCore.a in Frameworks */,
+				DA313CD84A5815B789821E6C /* libPods-TwitterCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08535846A66CB1257C0AA56C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				819AE66CF866A80CF1BDB7FA /* Pods-TwitterCore.debug.xcconfig */,
+				DA4A3D80CA49BC88C41A3686 /* Pods-TwitterCore.release.xcconfig */,
+				AA0EA7974B751C0AA7350057 /* Pods-TwitterCore-TwitterCoreTests.debug.xcconfig */,
+				BBEC22A73F607C7F5B4C0C0F /* Pods-TwitterCore-TwitterCoreTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		24AC143D1BE7B174000029B5 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -655,17 +677,9 @@
 			path = NetworkingTests;
 			sourceTree = "<group>";
 		};
-		6C9581D81AE1EEFA002981F8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		6C9581DB1AE1EEFA002981F8 /* AnalyticsTests */ = {
 			isa = PBXGroup;
 			children = (
-				6C9581D81AE1EEFA002981F8 /* Models */,
 				6C9581DA1AE1EEFA002981F8 /* TWTRUserSessionVerifierTests.m */,
 			);
 			path = AnalyticsTests;
@@ -752,6 +766,7 @@
 				9D5A92301AAA89730039EFCC /* TwitterCoreTests */,
 				9D5A926F1AAD13AD0039EFCC /* Frameworks */,
 				9D5A92221AAA89730039EFCC /* Products */,
+				08535846A66CB1257C0AA56C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -787,7 +802,7 @@
 		9D5A92301AAA89730039EFCC /* TwitterCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				DBC0F1231B55CDCC006B6BB6 /* Test Helpers */,
+				DBC0F1231B55CDCC006B6BB6 /* TestHelpers */,
 				6C9581DB1AE1EEFA002981F8 /* AnalyticsTests */,
 				9D0AE5C21AC741DB00884B45 /* IdentityTests */,
 				6C9581B01AE1EC4B002981F8 /* NetworkingTests */,
@@ -817,6 +832,8 @@
 				9DF52D6E1ABA95C3004345D0 /* Security.framework */,
 				9D79FD1E1ABA7053009E5D38 /* UIKit.framework */,
 				9D5A92661AAAA2160039EFCC /* Foundation.framework */,
+				5909A393C00A819D51BE2611 /* libPods-TwitterCore.a */,
+				374F49056306E08BDBF87ACB /* libPods-TwitterCore-TwitterCoreTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -996,7 +1013,7 @@
 			name = PipelineTests;
 			sourceTree = "<group>";
 		};
-		DBC0F1231B55CDCC006B6BB6 /* Test Helpers */ = {
+		DBC0F1231B55CDCC006B6BB6 /* TestHelpers */ = {
 			isa = PBXGroup;
 			children = (
 				DBC0F1241B55CE8D006B6BB6 /* TWTRPipelineSessionMock.h */,
@@ -1004,7 +1021,7 @@
 				DBC0F1271B55CECA006B6BB6 /* TWTRSessionFixtureLoader.h */,
 				DBC0F1281B55CECA006B6BB6 /* TWTRSessionFixtureLoader.m */,
 			);
-			name = "Test Helpers";
+			path = TestHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1020,7 +1037,7 @@
 				3D9DA37E1C405FE600034D2A /* TWTRAuthenticationConstants.h in Headers */,
 				DBC0F08B1B55C175006B6BB6 /* TWTRNetworkingPipeline.h in Headers */,
 				DBADE66E1BAB7DE000C838A5 /* TWTRMultipartFormDocument.h in Headers */,
-				6C7FCB611AE59F5C008F41C9 /* (null) in Headers */,
+				6C7FCB611AE59F5C008F41C9 /* BuildFile in Headers */,
 				DBC0F08D1B55C1A3006B6BB6 /* TWTRNetworkingPipelineQueue.h in Headers */,
 				DB19EEE91BC705DA00C7D031 /* TWTRAuthConfigSessionsValidator.h in Headers */,
 				9D30C55A1ACE318C00D0B1FA /* TWTRAPINetworkErrorsShim.h in Headers */,
@@ -1199,6 +1216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D5A92381AAA89730039EFCC /* Build configuration list for PBXNativeTarget "TwitterCoreTests" */;
 			buildPhases = (
+				3F711531FED09740498CD28B /* [CP] Check Pods Manifest.lock */,
 				9D5A92281AAA89730039EFCC /* Sources */,
 				9D5A92291AAA89730039EFCC /* Frameworks */,
 				9D5A922A1AAA89730039EFCC /* Resources */,
@@ -1218,6 +1236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D5A92591AAA8D600039EFCC /* Build configuration list for PBXNativeTarget "TwitterCore" */;
 			buildPhases = (
+				5A892B6C335163B53B50FCA6 /* [CP] Check Pods Manifest.lock */,
 				9D5A92411AAA8D600039EFCC /* Sources */,
 				9D5A92421AAA8D600039EFCC /* Frameworks */,
 				9D5A92431AAA8D600039EFCC /* Headers */,
@@ -1295,6 +1314,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F711531FED09740498CD28B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitterCore-TwitterCoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A892B6C335163B53B50FCA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitterCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D5A921D1AAA89730039EFCC /* Sources */ = {
@@ -1477,7 +1543,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREFIX_HEADER = "TwitterCore/Supporting Files/TwitterCore-Prefix.pch";
+				GCC_PREFIX_HEADER = "TwitterCore/TwitterCore-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -1530,7 +1596,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "TwitterCore/Supporting Files/TwitterCore-Prefix.pch";
+				GCC_PREFIX_HEADER = "TwitterCore/TwitterCore-Prefix.pch";
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

@@ -13,9 +13,101 @@ Pod::Spec.new do |s|
 
   #s.resources = ["iOS/TwitterKit.framework/TwitterKitResources.bundle", "iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle"]
   s.resources = "#{s.name}/TwitterKitResources.bundle"
-  s.source_files = "#{s.name}/#{s.name}/**/**.{h,m}"
+  s.source_files = "#{s.name}/#{s.name}/*.{h,m}"
   s.exclude_files = "#{s.name}/#{s.name}/External"
   s.prefix_header_file = "#{s.name}/#{s.name}/Supporting Files/#{s.name}-Prefix.pch"
+
+  s.subspec 'API' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+  end
+
+  s.subspec 'Composer' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+    ss.subspec 'TwitterShareExtensionUI' do |sss|
+      sss.source_files = "#{s.name}/#{s.name}/#{ss.name}/#{sss.name}/**/*.{h,m}"
+    end
+  end
+
+  s.subspec 'Controllers' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+    ss.subspec 'Video' do |sss|
+      sss.source_files = "#{s.name}/#{s.name}/#{ss.name}/#{sss.name}/*.{h,m}"
+    end
+  end
+
+  s.subspec 'Debugging' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+  end
+
+  s.subspec 'External' do |ss|
+    ss.subspec 'PunycodeCocoa' do |sss|
+      sss.source_files = "#{s.name}/#{s.name}/#{ss.name}/Punycode Cocoa/*.{h,m}"
+    end
+  end
+
+  s.subspec 'Identity' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+    ss.subspec 'APIClient' do |sss|
+      sss.source_files = "#{s.name}/#{s.name}/#{ss.name}/API Client/*.{h,m}"
+    end
+  end
+
+  s.subspec 'Libraries' do |ss|
+    ss.subspec 'TwitterUI' do |sss|
+      sss.source_files = "#{s.name}/#{s.name}/#{ss.name}/#{sss.name}/*.{h,m}"
+    end
+    ss.subspec 'TWTRImageLoader' do |sss|
+      sss.source_files = "#{s.name}/#{s.name}/#{ss.name}/#{sss.name}/*.{h,m}"
+    end
+  end
+
+  s.subspec 'Models' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+    ss.subspec 'JSONValidating' do |sss|
+      sss.source_files = "#{s.name}/#{s.name}/#{ss.name}/#{sss.name}/*.{h,m}"
+    end
+    ss.subspec 'CardEntities' do |sss|
+      sss.source_files = "#{s.name}/#{s.name}/#{ss.name}/Card Entities/*.{h,m}"
+    end
+    ss.subspec 'Cards' do |sss|
+      # empty
+    end
+  end
+
+  s.subspec 'MoPub' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+  end
+
+  s.subspec 'Networking' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+  end
+
+  s.subspec 'Notifications' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+  end
+
+  s.subspec 'Persistence' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+  end
+
+  s.subspec 'Resources' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+  end
+
+  s.subspec 'ThirdParty' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+  end
+
+  s.subspec 'Utilities' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+  end
+
+  s.subspec 'Views' do |ss|
+    ss.source_files = "#{s.name}/#{s.name}/#{ss.name}/*.{h,m}"
+    ss.subspec 'TweetViewLayouts' do |sss|
+      sss.source_files = "#{s.name}/#{s.name}/#{ss.name}/#{sss.name}/*.{h,m}"
+    end
+  end
 
   # http://mtl3.alibaba-inc.com/product/product_info.htm?productId=16069
   # TwitterKit
